@@ -21,7 +21,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .nav-title
@@ -53,11 +54,42 @@ nav a
 {
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 30px;
+    transition: .3s ease;
+}
+.btn-primary:hover
+{
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
+    color: #FD6E0A;
+    transition: .3s ease;
+}
+.btn-transparent
+{
+    border-radius: 5px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+    color: #FD6E0A;
+    transition: .3s ease;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 30px;
+    transition: .3s ease;
+}
+.btn-transparent:hover
+{
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    border: 1px solid #FD6E0A;
+    transition: .3s ease;
 }
 .banner
 {
@@ -88,11 +120,17 @@ nav a
 {
     max-width: 500px;
 }
+main
+{
+    width: 75%;
+    margin: 0 auto;
+}
+
 .about
 {
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 100px 150px;
+    margin: 100px 0px;
     padding: 100px 100px;
     text-align: center;
 }
@@ -130,7 +168,7 @@ nav a
 
 .what-i-do 
 {
-    margin: 100px 150px;
+    margin: 100px 0px;
     padding: 0px 100px;
     text-align: center;
 }
@@ -149,8 +187,6 @@ nav a
 }
 .offers
 {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     text-align: left;
     gap: 24px;
@@ -172,4 +208,90 @@ nav a
     color:#757575;
     font-size: 16px;
     font-weight: 400;
+}
+.resume h3
+{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 100px;
+}
+.myresume
+{
+    display: flex;
+    gap:30px;
+}
+.education h4
+{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.description h4
+{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.edu-description
+{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.des-title
+{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.btn-center
+{
+    text-align: center;
+    margin: 50px 0;
+}
+footer
+{
+    background: #FFF8F3;
+}
+.footer
+{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding: 100px 0;
+}
+.section
+{
+    max-width: 500px;
+}
+.section h4
+{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section img
+{
+    margin-right: 20px;
+}
+
+form input[type='text'], input[type='email'], textarea
+{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
 }
